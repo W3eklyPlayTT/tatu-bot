@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thank You!</title>
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #FF2FB3, #8A2BE2);
+    box-shadow: 0 0 20px #FF2FB3, 0 0 40px #8A2BE2;
+    font-family: "Courier New", monospace;
+  }
+
+  .changelog-box {
+    width: 500px;
+    max-width: 90%;
+    background: pink;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+
+  .changelog-box h1 {
+    margin-top: 0;
+    font-size: 2rem;
+  }
+
+  .heart {
+    font-size: 50px;
+    color: #FF0000;
+    margin: 20px 0;
+    animation: beat 1s infinite;
+  }
+
+  @keyframes beat {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+
+  .thanks-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: #FF2FB3;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+
+  .thanks-button:hover {
+    background: #e022a0;
+  }
+</style>
+</head>
+<body>
+  <div class="changelog-box">
+    <h1>Thank You!</h1>
+    <div class="heart">❤️</div>
+    <p>We really appreciate you for downloading our bot.</p>
+    <p>Hope you have an amazing day using the donutstats bot! 💜</p>
+    <a href=".index.html" class="thanks-button">Close</a>
+  </div>
+</body>
+</html>
