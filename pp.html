@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms of Service - DonutStats Bot</title>
+    <title>Privacy Policy - DonutStats Bot</title>
     <style>
         * {
             margin: 0;
@@ -101,6 +101,14 @@
             margin: 20px 0;
         }
 
+        .info-box {
+            background: rgba(118, 75, 162, 0.2);
+            padding: 15px;
+            border-left: 4px solid #764ba2;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+
         .back-link {
             text-align: center;
             margin-top: 40px;
@@ -126,6 +134,33 @@
             color: #fff;
         }
 
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        th {
+            background: rgba(102, 126, 234, 0.2);
+            color: #fff;
+            font-weight: 600;
+        }
+
         @media (max-width: 768px) {
             h1 {
                 font-size: 2em;
@@ -138,116 +173,211 @@
             .content-section {
                 padding: 20px;
             }
+
+            table {
+                font-size: 0.9em;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Terms of Service</h1>
+            <h1>Privacy Policy</h1>
             <p class="subtitle">DonutStats Bot</p>
             <p class="last-updated">Last Updated: April 30, 2026</p>
         </header>
 
         <div class="content-section">
-            <h2>1. Acceptance of Terms</h2>
-            <p>By inviting DonutStats Bot to your Discord server or using any of its features, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the bot.</p>
-        </div>
-
-        <div class="content-section">
-            <h2>2. Description of Service</h2>
-            <p>DonutStats Bot is a Discord bot that provides moderation tools, utility features, DonutSMP statistics, and entertainment commands for Discord servers. The service is provided "as is" and may be modified, suspended, or discontinued at any time.</p>
-        </div>
-
-        <div class="content-section">
-            <h2>3. User Responsibilities</h2>
-            <p>As a user of DonutStats Bot, you agree to:</p>
-            <ul>
-                <li>Use the bot in compliance with Discord's Terms of Service and Community Guidelines</li>
-                <li>Not use the bot for any illegal, harmful, or malicious purposes</li>
-                <li>Not attempt to exploit, hack, or abuse the bot's functionality</li>
-                <li>Not use the bot to spam, harass, or harm other users</li>
-                <li>Not attempt to gain unauthorized access to the bot's systems or data</li>
-                <li>Respect the rights and privacy of other users</li>
-            </ul>
-        </div>
-
-        <div class="content-section">
-            <h2>4. Prohibited Activities</h2>
-            <p>The following activities are strictly prohibited:</p>
-            <ul>
-                <li>Using the bot to violate any local, state, national, or international law</li>
-                <li>Attempting to reverse engineer, decompile, or extract the bot's source code</li>
-                <li>Selling, renting, or sublicensing access to the bot</li>
-                <li>Using the bot to collect personal information without consent</li>
-                <li>Impersonating the bot developers or staff members</li>
-                <li>Distributing malware, viruses, or harmful code through bot interactions</li>
-            </ul>
-        </div>
-
-        <div class="content-section">
-            <h2>5. Moderation and Server Management</h2>
-            <p>Server administrators are solely responsible for how the bot is configured and used within their servers. DonutStats Bot developers are not liable for any actions taken by server administrators or moderators using the bot's features.</p>
-        </div>
-
-        <div class="content-section">
-            <h2>6. Availability and Support</h2>
-            <p>While we strive for 99.9% uptime, we do not guarantee uninterrupted service. The bot may experience downtime for maintenance, updates, or unforeseen technical issues. We are not liable for any damages resulting from service interruptions.</p>
-            <p>Support is provided on a best-effort basis through our Discord support server.</p>
-        </div>
-
-        <div class="content-section">
-            <h2>7. Intellectual Property</h2>
-            <p>All content, features, and functionality of DonutStats Bot, including but not limited to text, graphics, logos, and software, are the exclusive property of the bot developers and are protected by copyright and other intellectual property laws.</p>
-        </div>
-
-        <div class="content-section">
-            <h2>8. Limitation of Liability</h2>
+            <h2>Introduction</h2>
+            <p>Welcome to DonutStats Bot's Privacy Policy. We are committed to protecting your privacy and being transparent about the data we collect. This policy explains what information we collect, how we use it, and your rights regarding your data.</p>
             <div class="highlight">
-                <p><strong>Important:</strong> DonutStats Bot is provided "as is" without any warranties, express or implied. We are not liable for any direct, indirect, incidental, consequential, or punitive damages arising from your use of the bot.</p>
+                <p><strong>TL;DR:</strong> We collect minimal data necessary for the bot to function. We don't sell your data. You can request deletion at any time.</p>
             </div>
-            <p>This includes but is not limited to:</p>
+        </div>
+
+        <div class="content-section">
+            <h2>1. Information We Collect</h2>
+            
+            <h3>1.1 Automatically Collected Data</h3>
+            <p>When you use DonutStats Bot, we automatically collect certain information:</p>
             <ul>
-                <li>Loss of data or content</li>
-                <li>Server or account issues caused by bot actions</li>
-                <li>Errors or bugs in bot functionality</li>
-                <li>Unauthorized access to your server or data</li>
+                <li><strong>Server Information:</strong> Server ID, server name, member count</li>
+                <li><strong>User Information:</strong> User ID, username, discriminator</li>
+                <li><strong>Command Usage:</strong> Commands used, timestamps, and command parameters</li>
+                <li><strong>Message Data:</strong> Content of messages that invoke bot commands (temporarily, for processing only)</li>
+            </ul>
+
+            <h3>1.2 Configuration Data</h3>
+            <p>Data you provide when configuring the bot:</p>
+            <ul>
+                <li>Server settings and preferences</li>
+                <li>Custom command configurations</li>
+                <li>Moderation settings and rules</li>
+                <li>Role and channel preferences</li>
+            </ul>
+
+            <h3>1.3 DonutSMP Statistics</h3>
+            <p>When using DonutSMP stat features:</p>
+            <ul>
+                <li>Minecraft usernames or UUIDs requested</li>
+                <li>Statistics queries and results</li>
             </ul>
         </div>
 
         <div class="content-section">
-            <h2>9. Termination</h2>
-            <p>We reserve the right to terminate or suspend access to the bot for any user or server that violates these Terms of Service, without prior notice or liability. Users may stop using the bot at any time by removing it from their server.</p>
+            <h2>2. How We Use Your Information</h2>
+            <p>We use the collected information for the following purposes:</p>
+            <ul>
+                <li><strong>Provide Bot Functionality:</strong> Process commands, moderation actions, and deliver requested features</li>
+                <li><strong>Improve the Service:</strong> Analyze usage patterns to improve performance and add new features</li>
+                <li><strong>Troubleshooting:</strong> Debug issues and provide technical support</li>
+                <li><strong>Security:</strong> Detect and prevent abuse, spam, or malicious activity</li>
+                <li><strong>Analytics:</strong> Generate aggregated statistics about bot usage (server count, command usage, etc.)</li>
+            </ul>
+
+            <div class="info-box">
+                <p><strong>What We DON'T Do:</strong></p>
+                <ul>
+                    <li>❌ Sell or rent your data to third parties</li>
+                    <li>❌ Use your data for advertising purposes</li>
+                    <li>❌ Share your data with third parties (except as required by law)</li>
+                    <li>❌ Store message content beyond command processing</li>
+                </ul>
+            </div>
         </div>
 
         <div class="content-section">
-            <h2>10. Changes to Terms</h2>
-            <p>We reserve the right to modify these Terms of Service at any time. Changes will be effective immediately upon posting. Continued use of the bot after changes constitutes acceptance of the modified terms.</p>
-            <p>Major changes will be announced in our Discord support server.</p>
+            <h2>3. Data Storage and Retention</h2>
+            
+            <h3>3.1 Storage Location</h3>
+            <p>All data is stored on secure servers with industry-standard encryption and security measures.</p>
+
+            <h3>3.2 Retention Period</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data Type</th>
+                        <th>Retention Period</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Server Configuration</td>
+                        <td>Until bot is removed or data deletion requested</td>
+                    </tr>
+                    <tr>
+                        <td>Command Logs</td>
+                        <td>30-90 days (for troubleshooting)</td>
+                    </tr>
+                    <tr>
+                        <td>Message Content</td>
+                        <td>Immediately after processing (not stored)</td>
+                    </tr>
+                    <tr>
+                        <td>Error Logs</td>
+                        <td>30 days</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
 
         <div class="content-section">
-            <h2>11. Third-Party Services</h2>
-            <p>DonutStats Bot may integrate with third-party services, including DonutSMP statistics. We are not responsible for the availability, accuracy, or content of these third-party services.</p>
+            <h2>4. Data Sharing and Third Parties</h2>
+            <p>We do not sell or rent your personal information. We may share data only in the following circumstances:</p>
+            <ul>
+                <li><strong>Discord API:</strong> We use Discord's API to provide bot functionality. Discord's own privacy policy applies to their services</li>
+                <li><strong>DonutSMP Services:</strong> When you request DonutSMP statistics, we query their public APIs</li>
+                <li><strong>Legal Compliance:</strong> If required by law, court order, or governmental authority</li>
+                <li><strong>Service Providers:</strong> Hosting providers who help us operate the bot (under strict confidentiality agreements)</li>
+            </ul>
         </div>
 
         <div class="content-section">
-            <h2>12. Governing Law</h2>
-            <p>These Terms of Service shall be governed by and construed in accordance with applicable laws, without regard to conflict of law provisions.</p>
+            <h2>5. Your Rights and Choices</h2>
+            <p>You have the following rights regarding your data:</p>
+            
+            <h3>5.1 Access and Portability</h3>
+            <p>You can request a copy of the data we have about you or your server.</p>
+
+            <h3>5.2 Deletion</h3>
+            <p>You can request deletion of your data at any time. Data is automatically deleted when you remove the bot from your server.</p>
+
+            <h3>5.3 Correction</h3>
+            <p>You can update or correct configuration data through bot commands or by contacting support.</p>
+
+            <h3>5.4 Opt-Out</h3>
+            <p>You can stop using the bot at any time by removing it from your server.</p>
+
+            <div class="highlight">
+                <p><strong>To exercise your rights:</strong> Contact us at w3eklyplaytt@gmail.com or join our <a href="https://discord.gg/dRR7vwArbu">Discord support server</a>.</p>
+            </div>
         </div>
 
         <div class="content-section">
-            <h2>13. Contact Information</h2>
-            <p>For questions about these Terms of Service, please contact us:</p>
+            <h2>6. Security Measures</h2>
+            <p>We implement appropriate security measures to protect your data:</p>
+            <ul>
+                <li>Encrypted data transmission (HTTPS/WSS)</li>
+                <li>Secure database access with authentication</li>
+                <li>Regular security audits and updates</li>
+                <li>Limited access to data (only authorized personnel)</li>
+                <li>Automated backups with encryption</li>
+            </ul>
+            <p>However, no method of transmission over the internet is 100% secure. We cannot guarantee absolute security.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>7. Children's Privacy</h2>
+            <p>DonutStats Bot does not knowingly collect personal information from children under 13 (or the applicable age in your jurisdiction). The bot is designed for general Discord server use in compliance with Discord's age requirements.</p>
+            <p>If you believe a child has provided data through the bot, please contact us immediately.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>8. Discord's Privacy Policy</h2>
+            <p>As a Discord bot, we operate within Discord's ecosystem. Discord's <a href="https://discord.com/privacy">Privacy Policy</a> and <a href="https://discord.com/terms">Terms of Service</a> also apply to your use of the bot.</p>
+            <p>We only access data that Discord's API makes available to bot applications.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>9. International Data Transfers</h2>
+            <p>Your data may be transferred to and processed in countries other than your own. We ensure appropriate safeguards are in place to protect your data in accordance with this Privacy Policy.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>10. Cookies and Tracking</h2>
+            <p>DonutStats Bot does not use cookies or tracking technologies. However, our website (donutstats.xyz) may use standard analytics tools. This Privacy Policy primarily covers the Discord bot itself.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>11. Changes to This Policy</h2>
+            <p>We may update this Privacy Policy from time to time. Changes will be effective immediately upon posting. We will notify users of material changes through:</p>
+            <ul>
+                <li>Updates in our Discord support server</li>
+                <li>Notices on our website</li>
+                <li>Bot announcements (for major changes)</li>
+            </ul>
+            <p>Continued use of the bot after changes constitutes acceptance of the updated policy.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>12. Contact Information</h2>
+            <p>If you have questions, concerns, or requests regarding this Privacy Policy or your data, please contact us:</p>
             <ul>
                 <li><strong>Email:</strong> w3eklyplaytt@gmail.com</li>
-                <li><strong>Discord Support Server:</strong> <a href="https://discord.gg/dRR7vwArbu" style="color: #667eea;">Join Server</a></li>
+                <li><strong>Discord Support Server:</strong> <a href="https://discord.gg/dRR7vwArbu">Join Server</a></li>
             </ul>
+            <p>We will respond to your inquiries within 30 days.</p>
         </div>
 
         <div class="content-section">
-            <h2>14. Severability</h2>
-            <p>If any provision of these Terms of Service is found to be unenforceable or invalid, that provision will be limited or eliminated to the minimum extent necessary, and the remaining provisions will remain in full force and effect.</p>
+            <h2>13. Compliance</h2>
+            <p>We strive to comply with applicable data protection laws, including:</p>
+            <ul>
+                <li>General Data Protection Regulation (GDPR) - for EU users</li>
+                <li>California Consumer Privacy Act (CCPA) - for California users</li>
+                <li>Other applicable regional privacy laws</li>
+            </ul>
         </div>
 
         <div class="back-link">
